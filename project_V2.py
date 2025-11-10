@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import yfinance as yf
 import math
 import altair as alt
@@ -1857,3 +1856,4 @@ with Tech_tab:
 
             # Render (always at least price chart)
             renderLightweightCharts(charts, key=f"lwc_{tk}_{key_suffix}")
+
