@@ -4,7 +4,7 @@ numpy<2.0
 yfinance>=0.2.43
 altair>=5.2
 riskfolio-lib>=5.0.0
-streamlit-lightweight-charts>=0.8.0
+streamlit-lightweight-charts==0.7.20
 XlsxWriter>=3.2
 # Darts with all extras (may increase build time)
 u8darts[all]==0.30.0
